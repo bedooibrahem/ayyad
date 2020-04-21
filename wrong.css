@@ -1,5 +1,6 @@
-body {
 
+body {
+ box-sizing: border-box;
   text-align: center;
   color: #fff;
 }
@@ -13,10 +14,11 @@ header{
   margin-bottom: 0px;
 }
 .reasons {
-  height: 600px;
+  overflow: hidden;
+  height: 700px;
   background-color: #666;
   text-align: right;
-
+margin-bottom: 0;
 
 }
 .reasons h2{
@@ -30,7 +32,8 @@ line-height: 1.5
   font-size: 20px;
 }
 .reasons .answer {
-  padding: 40px
+  padding: 40px;
+
 }
 
 /* testimonial Section */
@@ -68,15 +71,7 @@ text-align: center;
 padding: 3% 2%
 
 }
-@media (max-width:1028px) {
-.title-image {
-position: static;
-transform: rotate(0);
-}
-#title {
-text-align: center;
-}
-}
+
 #cta {
 text-align: center;
 padding: 7% 15% ;
@@ -91,3 +86,8 @@ line-height: 1.5;
 #testimonials #carouselExampleControls .intro {
 font-size: 26px
 }
+@media (max-width: 400px) {
+  .container-fluid{width:auto;
+
+
+}}
