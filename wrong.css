@@ -1,0 +1,93 @@
+body {
+
+  text-align: center;
+  color: #fff;
+}
+img {
+  width: 12%;
+  margin-top: 150px;
+}
+header{
+  background-color: #c81912;
+  height: 600px;
+  margin-bottom: 0px;
+}
+.reasons {
+  height: 600px;
+  background-color: #666;
+  text-align: right;
+
+
+}
+.reasons h2{
+margin: 0;
+line-height: 1.5
+}
+.reasons ol {
+  line-height: 2;
+  padding: 0 12px 0 0;
+  margin: 0;
+  font-size: 20px;
+}
+.reasons .answer {
+  padding: 40px
+}
+
+/* testimonial Section */
+#testimonials {
+
+text-align: center;
+background-color: #fd5f44 ;
+color: #fff ;
+
+}
+.testemonial-image {
+width: 10% ;
+border-radius: 100%;
+margin: 20px ;
+}
+#press {
+background-color: #ef8172 ;
+padding-bottom: 3% ;
+text-align: center;
+}
+.press-image {
+width: 15% ;
+margin: 20px 20px 50px ;
+}
+.carousel-item {
+padding: 7% 15%;
+}
+
+#pricing {
+padding: 100px;
+text-align: center;
+}
+
+.pricing-column {
+padding: 3% 2%
+
+}
+@media (max-width:1028px) {
+.title-image {
+position: static;
+transform: rotate(0);
+}
+#title {
+text-align: center;
+}
+}
+#cta {
+text-align: center;
+padding: 7% 15% ;
+background-color: #ff4c68 ;
+color: #fff ;
+}
+.lastp {
+font-size: 3.5rem ;
+font-family: "Montserrat";
+line-height: 1.5;
+}
+#testimonials #carouselExampleControls .intro {
+font-size: 26px
+}
